@@ -1,0 +1,1 @@
+<?php if (@$_SESSION['tipo']==3) {header("location:index.php?sec=perfil");} ?>

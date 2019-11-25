@@ -1,0 +1,288 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Karla', sans-serif;
+	font-size: 12px;
+}
+
+
+header{
+  border-bottom: 3px solid #DEA132;
+  height: 100px;
+  background-color: #AE2121;
+  padding: 15px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+header a{
+  color: #FFF;
+}
+
+header a:hover{
+  color: #DEA132;
+}
+
+footer{
+  background-color: #AE2121;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif;
+  padding: 15px;
+  letter-spacing: 1px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: solid #DEA132 3px;
+}
+
+
+table{
+  text-align: left;
+}
+
+.gestor{
+  padding: 15px;
+}
+
+.link a{
+  color:#FFF;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px; 
+}
+
+.link a:hover{
+  text-decoration: underline;
+}
+
+.link1 a{
+  color:#000;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px; 
+}
+
+.link1 a:hover{
+  text-decoration: underline;
+}
+
+.logo{
+  text-align: left;
+}
+
+.logotexto{
+  font-size: 16px;
+  display: none;
+  float: left;
+}
+
+.socialicon{
+  top: 15px;
+}
+
+.socialicon a{
+  text-align: right;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.socialicon a:hover{
+  text-decoration: none;
+  color: #DEA132;
+}
+
+.we{display:none;}
+@media (min-width: 768px) and (max-width: 1024px){
+.socialicon{
+    text-align: right;
+    top: -40px;
+
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+
+.logo{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+.logo img{
+  width: 120px;
+}
+
+.socialicon{
+    text-align: center;
+    top: 0;
+
+  }
+
+  .logotexto{
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+  }
+
+  .socialicon a{
+    font-size: 15px;
+  }
+
+footer{
+bottom:0px;
+font-size:8px;
+}
+
+} /*END MOBILE STYLE*/
+
+
+label{
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+
+.titulo{
+	color: #DEA132;
+	margin: 20px 0 20px 0;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 0.5px solid #DEA132;
+}
+
+.navbar-toggle{
+	background-color: orange;
+	border: none;
+}
+
+.navbar-toggle .icon-bar{
+	color: red;
+}
+
+.botonadd{
+	color: #FFF;
+display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #DEA132;
+  margin: 20px 20px 20px 0px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+.botonadd a{
+	color: #FFF;
+	text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.formlog{
+	padding: 10px;
+	background-color: #333;
+	color: #FFF;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.formlog form{
+	width: 100%;
+}
+
+.botonreg{
+  color: #FFF;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #DEA132;
+  margin: 20px 20px 20px 0px;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.botonreg a{
+	color: #FFF;
+	text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.all{
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+}
+
+.volver{
+  color: #AE2121;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.info{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.clear{
+  clear: both;
+}
+
+
+.limite{
+  padding: 10px;
+  background: #ececec;
+  font-size: medium;
+  text-align: center;
+}
+
+.red{
+  color:red !important;
+}
+
+.oculto{
+display:none;
+}
